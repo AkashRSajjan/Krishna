@@ -36,13 +36,13 @@ public class MainActivity extends AppCompatActivity {
                     .setPositiveButton("YES", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
                             // FIRE ZE MISSILES!
-                            Log.d("FlowCheck","hello u clicked yes.");
+                            Log.d("FlowCheck","You have clicked YES..!");
                         }
                     })
                     .setNegativeButton("NO", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
                             // User cancelled the dialog
-                            Log.d("FlowCheck","hello u clicked no.");
+                            Log.d("FlowCheck","You have clicked NO..!");
                         }
                     });
             // Create the AlertDialog object and return it
